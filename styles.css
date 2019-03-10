@@ -67,7 +67,7 @@ button{
     border-bottom: solid #888888ce 1px;
 }
 .friendImg{
-    height:100px;
+    height:80px;
     border-radius:50%;
 }
 
@@ -78,4 +78,13 @@ button{
 
 .socialImg{
 width:100%;
+}
+
+.left{
+    display: flex;
+    justify-content: start;
+}
+.right{
+right:0%;
+   position: absolute;
 }
